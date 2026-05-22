@@ -1,4 +1,12 @@
 body {
+  background-color: #000000;
+  color: #ffffff;
+}
+.card {
+  background-color: #111111;
+  border-color: #333333;
+}
+body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
 }
