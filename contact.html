@@ -75,13 +75,8 @@
     <script src="js/script.js"></script>
     <script>
         document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault(); // Prevent actual form submission
-            
-            // Show success message
+            e.preventDefault(); 
             alert("✅ MESSAGE RECEIVED!\n\nThank you for your input. We'll get back to you soon!");
-            
-            // Optional: Reset the form after submission
-            this.reset();
         });
     </script>
 </body>
